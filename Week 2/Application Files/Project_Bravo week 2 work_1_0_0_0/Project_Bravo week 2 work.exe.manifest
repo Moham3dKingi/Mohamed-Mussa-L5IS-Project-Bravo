@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Project_Bravo week 2 work.exe" version="1.0.0.0" publicKeyToken="375ba1d390cc1dc1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Project_Bravo week 2 work" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Project_Bravo week 2 work.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Project_Bravo week 2 work.exe" size="10224">
+      <assemblyIdentity name="Project_Bravo week 2 work" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uBoSMm3zjUhYwy1QVJcb1bLStgF2sN0GB+uJmj5w7IU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Project_Bravo week 2 work.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-QJV6JFE9\Mohamed" issuerKeyHash="768201c8ea03a0ce65d0d1c443d22cca87a7286d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Flmf1p5v47fikazNOBAUSuAy3+mlJnp/DwFpHNBwfvI=</DigestValue></Reference></SignedInfo><SignatureValue>INSoEegUvcPqFFS0hq4Pmv/+fw6tSyA5rF5j9T8r+Kczmu+qxeguzQJ5Qv+6/+WiJpXZksuGTMBQI9DU20QdpbBIshJwa5JpklyLt/xLzRPUMtU+gdchRE223Zx5KxmbFxyRvmofcD11XU+tjFq1ChtPSiqn46zOCYukmkHgKu4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qT8RZUOG/LIeYHEoGUuB0ul49Pv6CbkzK9N6oaQy7kb9Dh+XzfWSqtQXtM+dwQfpdzgSSCWhh4HFbM2Q3s2rNpukNWkYdb/edJNas55HWAS3x+BCTwEMv6tZZvuHefOUNeCMKhddBgw0zANK+fH7tbvMYe/zETK1P40Bz6bbTfk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f27e70d01c69010f7f7a26a5e9df32e04a141038cdac91e2b7e36f9ed69f5916" Description="" Url=""><as:assemblyIdentity name="Project_Bravo week 2 work.exe" version="1.0.0.0" publicKeyToken="375ba1d390cc1dc1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-QJV6JFE9\Mohamed</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cKGejNORyNVntZI5+TVJte+Nqn0rsXGz2lFLftltFUw=</DigestValue></Reference></SignedInfo><SignatureValue>S6yxLFNfs1QQWwm9RhSulrWoboHUKTdU0TiYENdQ/YxLa47TvkcPZbY41i487nVa+hDNcZ7BH6FNKe+lXhYNe6cOrvsLQFGwezrAWxIKVu8k1tGkRoeXQ8xysB/HKMlq99yapfUeJlkCQC18QpIB0ewSfxNBsVX49kXF727NVkg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qT8RZUOG/LIeYHEoGUuB0ul49Pv6CbkzK9N6oaQy7kb9Dh+XzfWSqtQXtM+dwQfpdzgSSCWhh4HFbM2Q3s2rNpukNWkYdb/edJNas55HWAS3x+BCTwEMv6tZZvuHefOUNeCMKhddBgw0zANK+fH7tbvMYe/zETK1P40Bz6bbTfk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQPOP2iWSuD5dJSD2sif3VWDANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ATABBAFAAVABPAFAALQBRAEoAVgA2AEoARgBFADkAXABNAG8AaABhAG0AZQBkMB4XDTIxMDMwMTAwMTgyOVoXDTIyMDMwMTA2MTgyOVowOTE3MDUGA1UEAx4uAEwAQQBQAFQATwBQAC0AUQBKAFYANgBKAEYARQA5AFwATQBvAGgAYQBtAGUAZDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqT8RZUOG/LIeYHEoGUuB0ul49Pv6CbkzK9N6oaQy7kb9Dh+XzfWSqtQXtM+dwQfpdzgSSCWhh4HFbM2Q3s2rNpukNWkYdb/edJNas55HWAS3x+BCTwEMv6tZZvuHefOUNeCMKhddBgw0zANK+fH7tbvMYe/zETK1P40Bz6bbTfkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBqFoBG+iXcCo4jvwrEb/WtdjfPw+vS8sB3k6dUbaR2d1vmHagCcgI95C0Zjh8suE9673HA0DVBTcT/Ljh6eGBtgSpiUm+hC3/JY19e/s/ZnhohdA1EDwEZ3pNAceuewfOwENpFNOmKlytUPuoqM1GQ2GXRhgQ1Donv7zF+DAkL2A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
